@@ -1,0 +1,7 @@
+name: String = "Common wood pigeon"
+lifespan: Int = 8
+friends {
+bird1 = "Parrot"
+bird2 = "Albatross"
+bird3 = "Falcon"
+}
