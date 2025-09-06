@@ -1,0 +1,14 @@
+amends "pkl:test"
+
+facts {
+  ["one"] {
+    1.isOdd
+    1.isBetween(0, 3)
+    1 == 2
+  }
+  ["two"] {
+    2.isEven
+    2.isBetween(0, 3)
+    2 == 2
+  }
+}
