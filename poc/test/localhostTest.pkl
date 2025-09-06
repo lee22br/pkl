@@ -1,0 +1,12 @@
+module test.localHost
+amends "pkl:test"
+
+import* "../localhost.pkl" as example
+
+examples{
+  for (key in example.keys) {
+    [key.drop("../".length).replaceLast("pkl", "yml")] {
+      example[key].output.text
+    }
+  }
+}

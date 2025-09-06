@@ -2,9 +2,9 @@ amends "Application.pkl"
 
 hostname = "localhost"
 
-port = 3599
+port = 8080
 
-environment = "stage"
+environment = "demo"
 
 database {
   host = "localhost"

@@ -1,0 +1,9 @@
+server {
+  host = "localhost"
+  port = 8080
+  secure = true
+  credentials {
+    username = "user"
+    password = "pass"
+  }
+}
